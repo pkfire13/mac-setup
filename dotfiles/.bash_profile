@@ -1,3 +1,6 @@
+# for oh-my-bash
+source ~/.bashrc
+
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/bin
 export PATH=/opt/homebrew/bin:$PATH

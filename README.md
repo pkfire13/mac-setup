@@ -50,11 +50,61 @@ echo $SHELL
 
 #### Configure bash_profile
 
+copy-paste the dotfiles/.bash_profile into ~/.bash_profile
+
+```bash
+cd ~
+curl -O https://raw.githubusercontent.com/pkfire13/mac-setup/main/dotfiles/.bash_profile
+```
+
+##### Commands used in bash_profile
+
+```bash
+brew install vcprompt
+brew install fortune
+brew install cowsay
+```
+
+- vcprompt - list the current branch if in a folder that is a git repo
+- fortune - print a random quote / story / joke / poem.
+- cowsay - use a cowfile to say a random fortune
+
+#### Install Oh My Bash
+
+```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+Change theme in ~/.bashrc
+
+```bash
+  OSH_THEME="copperkid"
+```
+
 ## OS Productivity
 
-rectangle
-alt-tab
-alfred
+- alfred: launch apps with cmd + space
+
+```bash
+  brew install alfred
+```
+
+Preferences > General > Alfred Hotkey > cmd + space
+
+- alt-tab: switch between windows with cmd + tab
+
+```bash
+  brew install alt-tab
+```
+
+Preferences > Keyboard > Shortcuts > Keyboard
+Move focus to next window > cmd + tab
+
+- rectangle: align windows with cmd + option + arrow
+
+```bash
+  brew install rectangle
+```
 
 ## Dev Productivity
 
