@@ -106,6 +106,10 @@ Move focus to next window > cmd + tab
   brew install rectangle
 ```
 
+- Dictation
+Settings > Keyboard > Enable Dictation
+Shortcut: "Press Control Key Twice"
+
 ## Dev Productivity
 
 ### lazyvim
