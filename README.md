@@ -109,6 +109,7 @@ Move focus to next window > cmd + tab
 - Dictation
 
 Settings > Keyboard > Enable Dictation
+
 Shortcut: "Press Control Key Twice"
 
 ## Dev Productivity
